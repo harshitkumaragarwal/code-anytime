@@ -5,12 +5,12 @@ int main(){
     a=5;
     b=6;
 
-    temp=b;//temp=6
-    b=a;// b=5
-    a=temp;//a=6
-
+    temp=a;//temp=5
+    a=b;// a=6
+    b=temp;//b=5
+    
     printf("%d\n",a);
     printf("%d\n",b);
-    
+
     return 0;
 }
