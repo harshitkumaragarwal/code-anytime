@@ -4,7 +4,7 @@ int main() {
     printf("Enter a number: ");
     scanf("%d", &n);
 
-    switch(n) {
+    switch(0) {
         case 1:
             printf("The value is 1\n");
             break;
@@ -17,5 +17,5 @@ int main() {
         default:
             printf("Value not 1, 2, or 3");
     }
-    return 0;
+    return main;
 }
